@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Other UI elements -->
+
+    <Button
+        android:id="@+id/buttonGoToSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup"/>
+
+    <Button
+        android:id="@+id/buttonGoToLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"/>
+
+    <Button
+        android:id="@+id/buttonGoToManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password Manager"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="360dp"
+        android:layout_centerInParent="true" />
+
+</LinearLayout>
